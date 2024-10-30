@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Embed Google Map on Website</title>
+  <link rel="stylesheet" href="Styling/Map.css">
+  <script src="Map.js"></script>
+
+</head>
+<body> 
+  <header>
+    <img src="Images/carpoolbuddy.png" alt="Logo" class="logo">
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="DriverPage.html">Driver page</a>
+        <a href="Messages.html">Messages</a>
+        <a href="Maps.html" class="active">Maps</a>
+
+    </nav>
+</header>
+
+<div class="container">
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="Search for a location...">
+    <button id="search-button">Search</button>
+  </div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.3083161276063!2d-118.53259452403393!3d34.24067557308644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29a540fb2668f%3A0xf01092f387d92a56!2sCalifornia%20State%20University%2C%20Northridge!5e0!3m2!1sen!2sus!4v1714254487201!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</body>
+</html>

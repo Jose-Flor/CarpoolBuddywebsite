@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    padding: 30px 100px;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center; 
+   z-index: 100;
+}
+
+.logo{
+    height: 250px;
+    width: 250px;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 270px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navigation a:hover, .navigation a.active{
+    background: #359381;
+    color: #fff;
+}   
+.gridItem {
+    margin: 16px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    background-color: white;
+}
+
+.innerContainer {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Namesid {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.details {
+    font-size: 12px;
+}
+
+.image {
+    width: 100%;
+    height: 100px;
+    border-radius: 8px;
+}
+/* Styling for driverpage.css */
+
+.header {
+    /* Add margin-bottom to create space between header and driver list */
+    margin-bottom: 20px;
+  }
+  
+  .driver-list-container {
+    /* Add padding-top to create space between driver list and header */
+    padding-top: 20px;
+  }
+  /* Styling for driverpage.css */
+
+.navigation {
+    margin-bottom: 20px; 
+  }
+  
+  .driver-list-container {
+    margin-top: 200px; 
+  }
+  
+
+.driver-list-container {
+    margin-top: 200px; 
+  }
+  
+  .driver-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+  }
+  
+  .gridItem {
+    height: 200px; 
+    border-radius: 8px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .innerContainer {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Namesid {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .details {
+    font-size: 12px;
+  }
+  
+  .image {
+    width: 50%;
+    height: 100px;
+    border-radius: 8px;
+  }
+  

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    padding: 30px 100px;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center; 
+   z-index: 100;
+}
+
+.logo{
+    height: 250px;
+    width: 250px;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 270px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navigation a:hover, .navigation a.active{
+    background: #359381;
+    color: #fff;
+}   
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#text {
+    position: absolute;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+
+.parallax img {
+
+    position:absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    pointer-events: none;
+
+}
+
+.sec {
+    position: relative;
+    background: #003329;
+    padding: 100px;
+}
+
+.sec h2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+.content-container {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .text-container {
+    width: 50%; 
+  }
+  
+  .image-container {
+    width: 50%; 
+  }
+  
+
+  .text-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-container {
+    display: flex;
+  }
+  
+  .text-container {
+    flex: 1; 
+    margin-right: 20px; 
+  }
+  
+  .image-container {
+    flex: 1; 
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .text-container2 {
+    flex: 1;
+  }
+  
+  .image-container2 {
+    flex: 1;
+  }
+  
+  .image-container2 img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .csun-logo {
+    position: absolute; 
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px; 
+    height: auto; 
+    margin-bottom: 20px; 
+    padding-top: 40px;
+}
+
+.image-container {
+    margin-top: 20px; 
+}
